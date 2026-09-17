@@ -56,7 +56,7 @@ if(NOT DEFINED ${proj}_DIR AND NOT ${CMAKE_PROJECT_NAME}_USE_SYSTEM_${proj})
       )
     ExternalProject_SetIfNotDefined(
       vtkAddon_GIT_REVISION
-      "2ed3e2226cf25958b4dbf8bf917b2f7793ecd6a2" # harden vtkAddon to override IGSIO which specifies vtkAddon's main branch
+      "3dc6d63a86ed099d1da05dd10aa5ff4c49728959" # harden vtkAddon to override IGSIO which specifies vtkAddon's main branch
       QUIET
       )
     list(APPEND BUILD_OPTIONS
